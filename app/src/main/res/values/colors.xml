@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aquamarine">#FF12D6B0</color>
+    <color name="aquamarine_light">#FF3EE8C8</color>
+    <color name="aquamarine_dark">#FF0FA88C</color>
+    <color name="hint">#FF8C8C8C</color>
+    <color name="gray">#FF2E2E2E</color>
+    <color name="card">#E61E1E1E</color>
+    <color name="background">#FF080A09</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="poster_1">#FF1E4A43</color>
+</resources>

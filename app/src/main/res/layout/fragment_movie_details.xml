@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/poster"
+        android:layout_width="200dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/poster_1"
+        android:gravity="center"
+        android:textColor="#40FFFFFF"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="L" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="@color/aquamarine"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="Last Action Hero" />
+
+        <TextView
+            android:id="@+id/meta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/white_70"
+            android:textSize="14sp"
+            tools:text="1993 · Action, Comedy · IMDb 6.5" />
+
+        <TextView
+            android:id="@+id/plot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:lineSpacingExtra="2dp"
+            android:maxLines="6"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="Описание фильма" />
+
+        <TextView
+            android:id="@+id/people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/hint"
+            android:textSize="12sp"
+            tools:text="Режиссёр: John McTiernan\nВ ролях: Arnold Schwarzenegger" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        style="@style/TvPrimaryButton"
+        android:layout_width="150dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/back"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

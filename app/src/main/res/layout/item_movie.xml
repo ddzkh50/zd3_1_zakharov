@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/back_card"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:foreground="@drawable/card_focus"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/poster_1"
+        android:gravity="center"
+        android:textColor="#59FFFFFF"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        tools:text="M" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textColor="@color/aquamarine"
+        android:textSize="15sp"
+        tools:text="Last Action Hero" />
+
+    <TextView
+        android:id="@+id/meta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/hint"
+        android:textSize="11sp"
+        tools:text="1993 · Фильм" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/details"
+        android:textColor="@color/aquamarine"
+        android:textSize="11sp" />
+
+</LinearLayout>

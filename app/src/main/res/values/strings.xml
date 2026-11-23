@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MADVENTURE TV</string>
+
+    <string name="splash_title">MADVENTURE</string>
+    <string name="splash_subtitle">Rediscover the world</string>
+
+    <string name="sign_in_title">MADVENTURE</string>
+    <string name="sign_in_subtitle">Rediscover the world</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="error_title">Ошибка</string>
+    <string name="error_empty_fields">У вас есть пустые поля</string>
+
+    <string name="channels_label">КАНАЛЫ</string>
+    <string name="search_hint">Поиск по названию или году</string>
+    <string name="details">Подробнее</string>
+    <string name="back">Назад</string>
+</resources>
